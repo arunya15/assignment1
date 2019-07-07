@@ -1,0 +1,56 @@
+
+/*navbar*/
+ul {
+  list-style-type: none;
+  margin-top: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color:navbar-light;
+}
+
+text-align:center;
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#nav{
+  background: white;
+color:white;
+
+}
+#show{
+  background-color: yellow!important;
+  color: #000;
+}
+
+.margin {
+  margin-left: 10px;
+}
+
+/*add*/
+#form{
+  width: 1860px;
+  margin-top: -10px;
+  margin-left: -16px;
+}
+
+#top{
+  width: 1160px;
+}
+
+
+/*showtracker*/
+
+#firstcard{
+  width: 200px;
+  height: 350px;
+  padding: 10px 0 0 10px;
+}

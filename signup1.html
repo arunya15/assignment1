@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+<title>Signup</title>
+<link rel="stylesheet" href="https://fontawesome.com/v4.7.0/icon/key">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+body {font-family: Arial;
+background-color: lightgray;}
+
+
+
+.navbar a:hover  {
+  background-color: green!important;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 24%;
+  padding: 8px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for  button*/
+button.log{
+  background-color:dodgerblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 24%;
+}
+
+
+button:hover {
+  opacity: 0.4;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 20px;
+  text-align: left;
+}
+
+
+
+
+span.psw {
+  float: right;
+  padding-top: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: show; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 6%; /* Full width */
+  height: 280%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 22%; /* Could be more or less, depending on screen size */
+}
+
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+</style>
+</head>
+<body>
+
+    <body style="background-color: #cbc6c6;">
+
+   <nav class="navbar navbar-default style="background-color:white;">
+
+
+    <ul class="nav navbar-nav">
+    <li id="show"><a href="showtracker.html">Show Tracker</a></li>
+    <li><a href="index1.html"> Home</a></li>
+    <li><a href="add1.html"> Add</a></li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+    <li><a href="login1.html"> Login</a></li>
+    <li class="active"><a  href="signup1.html"> Sign up</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+</div>
+<div>
+
+   <form class="modal-content animate" action="/action_page.php">
+   <h4><center>signup</center></h4>
+    <div class="container">
+
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <input type="text" placeholder="name" name="name"  requried>
+      <br>
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+      <input type="text" placeholder="Email" name="email" required>
+      <br>
+      <i class="fa fa-key" aria-hidden="true"></i>
+    <input type="password"  placeholder="Password" name="psw"  required>
+      <br>
+   <center>
+
+  <p style="text-align:left;">By clicking sign up,You are agree to <b> terms & <br> conditions </b> and <b> privacy policy</p>
+
+   </center>
+   <button class="log" type="submit">signup</button>
+
+   <br>
+
+ <p>   Already have an account?  <b> log in now <b> </p>
+</div>
+
+
+
+</body>
+</html>
